@@ -79,8 +79,10 @@
           <imageName>${project.name}</imageName>
           <mainClass>${mainClass}</mainClass>
           <buildArgs>
-			      <buildArg>--enable-monitoring=all</buildArg>
-		      </buildArgs>
+			  <buildArg>--enable-monitoring=all</buildArg>
+			  <buildArg>--native-image-info</buildArg>
+			  <buildArg>--verbose</buildArg>
+		  </buildArgs>
         </configuration>
       </plugin>
     </plugins>
