@@ -11,7 +11,9 @@ It runs approximatively 40s on my desktop (a core i7) so that we have the time t
 It has been tested and runs smoothly on windows 10 and for linux on Ubuntu 22.04.
 
 The conclusion is that the `--enable-monitoring=all` option works fine on linux and we can attach with visualvm to the native image easily.
-But on wiwdows, it does not work : the native processus does never appair in visualvm.
+
+:warning: **Warning:** But on wiwdows, it does not work : the native processus does never appair in visualvm :(
+
 
 
 ## building it
