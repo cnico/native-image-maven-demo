@@ -82,6 +82,7 @@
 			  <buildArg>--enable-monitoring=all</buildArg>
 			  <buildArg>--native-image-info</buildArg>
 			  <buildArg>--verbose</buildArg>
+			  <buildArg>-H:ThrowMissingRegistrationErrors=</buildArg>
 		  </buildArgs>
         </configuration>
       </plugin>
